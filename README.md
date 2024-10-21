@@ -60,3 +60,7 @@ Feel free to submit pull requests or open issues for any improvements or suggest
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+- Name: Thirumalai K
+- Email: thirumalai.kb2@gmail.com
+- GitHub: [thiru-00](https://github.com/thiru-00)
