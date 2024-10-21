@@ -1,0 +1,32 @@
+SQL Query Questions for Athlete Events and NOC Regions
+
+This document contains a set of SQL query questions for comparing two tables: `athlete_events` and `noc_regions`. The questions are categorized by difficulty level.
+
+Easy Questions
+
+1. List all unique NOCs (National Olympic Committees) that are present in both tables.
+2. Find how many athletes are associated with each NOC from the `athlete_events` table.
+3. List all the athletes who participated in the Olympics representing a region but whose NOC is missing in the `noc_regions` table.
+4. Find all athletes who competed in the Summer Olympics.
+5. Retrieve the total number of regions that have at least one athlete in the `athlete_events` table.
+
+Medium Questions
+
+6. Display the number of athletes per region along with the NOC, showing only regions with more than 100 athletes.
+7. List all athletes from countries or regions that do not have any notes (i.e., notes column is null) in the `noc_regions` table.
+8. Find the regions and their NOC codes where athletes have won at least one medal.
+9. Find all athletes who participated in multiple Olympic events and list their respective NOCs and regions.
+10. Retrieve all athletes whose NOCs have additional notes listed in the `noc_regions` table.
+11. Count the number of medals won by athletes from each region (consider Gold, Silver, and Bronze separately).
+12. Identify the regions where the average height and weight of athletes are above the global average.
+
+Hard Questions
+
+13. List all athletes who have participated in both Summer and Winter Olympics, along with their NOC and region.
+14. Find the NOCs and regions where the proportion of medal-winning athletes (Gold, Silver, or Bronze) to total athletes is higher than 20%.
+15. For each year of the Olympics, identify the region that won the most gold medals.
+16. Identify the athletes who participated in an Olympic event representing a region different from their native region (using NOC and region mismatch).
+17. List all athletes who have participated in more than 5 Olympic events and categorize them by region and medal count.
+18. Rank the top 10 regions by the total number of medals won, and include the breakdown by Gold, Silver, and Bronze.
+19. For each Olympic event, calculate the average age of athletes and compare it by region, showing the oldest and youngest regions.
+20. Find all instances where two or more regions share the same NOC code, and display the athletes associated with each shared NOC.
